@@ -29,11 +29,27 @@
     float:left; 
 }
 
+.type1:hover {
+  margin: 5px;
+    width: 15px;
+    height: 15px;
+    background: #d8df23;
+    float:left; 
+}
+
 .type2 {
   margin: 5px;
     width: 15px;
     height: 15px;
     background: #d8df23;
+    float:left; 
+}
+
+.type2:hover {
+  margin: 5px;
+    width: 15px;
+    height: 15px;
+    background: black;
     float:left; 
 }
 
@@ -90,8 +106,43 @@ h1{
     width: 6%;
 }
 
-.social-media{
+.linkedin{
+  width: 34px;
+  height: 34px;
   margin: 20px 0 20px 0;
+  background: url('linkedin_black.png');
+}
+
+.linkedin{
+  width: 34px;
+  height: 34px;
+  margin: 20px 0 20px 0;
+  background: url('linkedin_black.png');
+  float:left; 
+}
+
+.twitter{
+  width: 34px;
+  height: 34px;
+  margin: 20px 0 20px 8px;
+  background: url('twitter_black.png');
+  float:left; 
+}
+
+.linkedin:hover{
+  width: 34px;
+  height: 34px;
+  margin: 20px 0 20px 0;
+  background: url('linkedin_green.png');
+  float:left; 
+}
+
+.twitter:hover{
+  width: 34px;
+  height: 34px;
+  margin: 20px 0 20px 8px;
+  background: url('twitter_green.png');
+  float:left; 
 }
 
 .icons{
@@ -107,4 +158,8 @@ h1{
 
 .home-img{
   margin: 50px 0 50px 0;
+}
+
+#step{
+  margin-left: 10%;
 }
