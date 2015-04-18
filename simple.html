@@ -3,75 +3,149 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>fullPage.js A simple Demo</title>
-	<meta name="author" content="Alvaro Trigo Lopez" />
-	<meta name="description" content="fullPage very simple demo." />
-	<meta name="keywords"  content="fullpage,jquery,demo,simple" />
+	<title>Fuelling</title>
+	<meta name="author" content="Sam Leach" />
+	<meta name="description" content="Fuelling" />
+	<meta name="keywords"  content="fuelling" />
 	<meta name="Resource-type" content="Document" />
-
 
 	<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
 	<link rel="stylesheet" type="text/css" href="examples.css" />
-
+	<link rel="stylesheet" type="text/css" href="fuelling.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 
 	<script type="text/javascript" src="jquery.fullPage.js"></script>
-	<script type="text/javascript">
-		$(document).ready(function() {
-			$('#fullpage').fullpage({
-				sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff']
-			});
-		});
-	</script>
+	<script type="text/javascript" src="fuelling.js"></script>
 
 </head>
 <body>
 
 <div id="fullpage">
 	<div class="section active white" id="section0">
-		<h1>Welcome to the first</h1>
-		<h1>virtual fuel station</h1>
-		<p>
-			Fuelling is the first e-commerce company that offers products
-		</p>
-		<p>
-			sporting goods in exchange for fuel accumulated by its users.
-		</p>
+		<div id="header" class="row">
+			<div class="col-md-2 col-md-offset-1 nav">WHAT?</div>
+			<div class="col-md-2 nav">WHY?</div>
+			<div class="col-md-2 nav-logo">
+				<img src="fuelling_logo.png" width="100%"\>
+			</div>
+			<div class="col-md-2 nav">WHO?</div>
+			<div class="col-md-2 nav">WHERE?</div>
+		</div>
+
+		<img src="home.png" class="home-img" width="100%"\>
+		
+		<div class="center-dots">
+			<div class="circleBase type2"></div>
+			<div class="circleBase type1"></div>
+			<div class="circleBase type1"></div>
+		</div>
+
 	</div>
-	<div class="section green" id="section1">
+	<div class="section white" id="section1">
+
+
+		<div class="row">
+			<div class="col-md-6">
+				<h1 style="background-color: #d8df23">First step,</h1>
+				<h1>tracking your activity.-</h1>
+				<p>Sync with your favorite app</p>
+
+				<img src="icon175x175_endomondo.png" class="icons" width="50px"\>
+				<img src="icon175x175_fitbit.png" class="icons" width="50px"\>
+				<img src="icon175x175_map.png" class="icons" width="50px"\>
+				<img src="icon175x175_strava.png" class="icons" width="50px"\>
+				<img src="icon175x175_runkeeper.png" class="icons" width="50px"\>
+
+			</div>
+			<div class="col-md-6">
+				<img src="first.png"\>
+			</div>
+		</div>
+
+	</div>
+	<div class="section forest" id="section2">
     	<h1>It's simple.</h1>
-		<h1>Just move, accumulate energy and win.</h1>	    
+		<h1>Just move, accumulate energy and win.</h1>
+
+		<div class="input-group center-email">
+		   <input type="text" class="form-control" value="E-mail address">
+		   <span class="input-group-btn">
+		        <button class="btn btn-default" type="button">GET STARTED</button>
+		   </span>
+		</div>
+
 	</div>
-	<div class="section white" id="section2">
-		<h1>First step,</h1>
-		<h1>tracking your activity.-</h1>
-		<p>
-			Surely you already have your favorite
-		</p>
-		<p>application.</p>
-	</div>
-	<div class="section green" id="section3">
-		<h1>The smart, simple and fun way</h1>
-		<h1>to get more active</h1>
-	</div>
-	<div class="section white" id="section4">
-		<h1>Second step,</h1>
+
+	<div class="section white" id="section3">
+
+		<div class="row">
+			<div class="col-md-6">
+		<h1 style="background-color: #d8df23">Second step,</h1>
 		<h1>check your accumulated liters.-</h1>
 		<p>Now your effort will be measured in Litres</p>
-		<p>
-			Begin to accumulate!
-		</p>
+		<p>Begin to accumulate!</p>
+
+			</div>
+			<div class="col-md-6">
+				<img src="second.png"\>
+			</div>
+		</div>
+
+
 	</div>
-	<div class="section white" id="section4">
-		<img>
+
+	<div class="section forest" id="section4">
+		<h1>The smart, simple and fun way</h1>
+		<h1>to get more active</h1>
+		<div class="input-group center-email">
+		   <input type="text" class="form-control" value="E-mail address">
+		   <span class="input-group-btn">
+		        <button class="btn btn-default" type="button">GET STARTED</button>
+		   </span>
+		</div>
 	</div>
-	<div class="section white" id="section4">
-		<h1>Third and final step,</h1>
-		<h1>Exchange your accumulated liters</h1>
-		<h1>exclusive sports products.-</h1>
-		<h1>Awesome!</h1>
+
+
+<div class="section" id="section5">
+
+	<div class="row">
+		<div class="col-md-6">
+	<h1 style="background-color: #d8df23">Third and final step,</h1>
+	<h1>Exchange your accumulated</h1>
+	<h1>litres exclusive sports products.-</h1>
+
+	<h1>Awesome!</h1>
+
+		</div>
+		<div class="col-md-6">
+			<img src="third.png"\>
+		</div>
+	</div>
+
+</div>
+
+	<div class="section white chicks" id="section6">
+		<h1>We have Fuelling our Company.</h1>
+		<h1>Contact us.</h1>
+
+		<div class="input-group center-email">
+		   <input type="text" class="form-control" value="E-mail address">
+		   <span class="input-group-btn">
+		        <button class="btn btn-default" type="button">GET STARTED</button>
+		   </span>
+		</div>
+
+		<img src="linkedin_black.png" class="social-media"\>
+		<img src="twitter_black.png" class="social-media"\>
+
+
+	</div>
+	<div class="section black" id="section7">
+		<div class="green footer"></div>
+		<img id="footer-logo" src="fuelling_logo_white.png" width="20%"\>
 	</div>
 </div>
 
