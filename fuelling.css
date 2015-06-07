@@ -191,7 +191,10 @@ h1{
 }
 
 .row-padding{
-  padding: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .text-left{
@@ -301,4 +304,8 @@ input[type="text"], textarea {
 .shop-text{
   font-size: 2em;
   margin-bottom: 10px;
+}
+
+.foob{
+  padding-top: 200px;
 }
