@@ -3,7 +3,7 @@
 }
 
 .nav-logo{
-	margin: 30px 0 0 0;
+	margin: 10px 0 0 0;
 }
 
 #images{
@@ -59,7 +59,7 @@
 }
 
 .forest {
-   background-image: url('img_module_one_op.png');
+   background-image: url('girls_on_grass.png');
    background-color: white !important; 
 }
 
@@ -80,17 +80,22 @@ h1{
 }
 
 .lato-font{
-    font-family: 'Lato', sans-serif !important;
+    font-family: 'Signika', sans-serif !important;
 }
 
 .footer{
   width: 100%;
   height: 1%;
+  margin-bottom: 100px;
+}
+
+.white2{
+  color: white !important;
 }
 
 #footer-logo{
   float: left;
-  margin: 50px;
+  margin-left: 70px;
 }
 
 .chicks{
@@ -166,4 +171,76 @@ h1{
 
 #step{
   margin-left: 10%;
+}
+
+.app-logo{
+  float: left;
+  margin-left: 100px;
+}
+
+.hamburger{
+  font-size: 3em;
+  float: left;
+  margin-left: 200px;
+}
+
+.language{
+  font-size: 2em;
+  float: right;
+  margin-right: 200px;
+}
+
+.row-padding{
+  padding: 50px;
+}
+
+.text-left{
+  text-align: left;
+}
+
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
+
+.down-arrow{
+  margin:50px;
+}
+
+.title3{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.fuelling-btn{
+  border-radius: 12px !important;
+}
+
+.rep{
+  background-image: url("trame_01.png");
+  background-repeat: repeat-y;
+}
+
+.forest3{
+  background-image: url(img_background_woman.png);
+}
+
+input[type="text"], textarea {
+  background-color : #d1d1d1;
+  border-radius: 12px !important;
+  margin: 10px; 
+}
+
+.app-store{
+  margin-bottom: 35px;
+  margin-top: 10px;
+}
+
+.footer-r{
+  margin-right: 70px;
 }
