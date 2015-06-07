@@ -265,3 +265,11 @@ input[type="text"], textarea {
 .jump{
   background-image: url(teamwork_jump.png);
 }
+
+.sports{
+  background-image: url(sports.png);
+}
+
+.products{
+  background-image: url(products.png);
+}
