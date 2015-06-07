@@ -273,3 +273,32 @@ input[type="text"], textarea {
 .products{
   background-image: url(products.png);
 }
+
+.green-highlight{
+  background-color: #d8df23; 
+  font-size: 2em; 
+  margin: 5px;
+}
+
+.rabbit{
+  margin-top: 20px;
+}
+
+.icons2{
+  margin-top: 20px;
+}
+
+.how-title{
+  margin-bottom: 40px;
+  font-size: 4em;
+}
+
+.margin-top-50{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.shop-text{
+  font-size: 2em;
+  margin-bottom: 10px;
+}
