@@ -309,3 +309,28 @@ input[type="text"], textarea {
 .foob{
   padding-top: 200px;
 }
+
+.no-bootstrap-margin{
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+.no-text-align-center{
+  text-align: left;
+}
+
+.round-10{
+  border-radius: 13px !important;
+}
+
+.margin-right-200{
+  margin-right: 200px;
+} 
+
+.padding-top-60{
+  padding-top: 60px;
+}
+
+.margin-top-15{
+  margin-top: 15px;
+} 
